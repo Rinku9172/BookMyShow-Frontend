@@ -1,0 +1,148 @@
+
+/* Add this to your CSS file or in a styled component */
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-dots li button:before {
+  color: black;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  color: black;
+}
+
+
+
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .date-item {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  .day {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .day-number {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .month {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .genre-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .genre-box {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .book__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .book__genre-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .book__genre-box {
+    background-color: #f3f4f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .date-item.highlight {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .book__theaters-container {
+    width: 100%;
+  }
+  
+  .book__theater {
+    margin-bottom: 20px;
+  }
+  
+  .book__theater-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .book__showtimes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .book__showtime-button {
+    background-color: transparent;
+    color:cadetblue;
+    padding: 10px;
+    border-color: #666;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book__showtime-button:hover {
+    background-color: transparent;
+  }
+  
